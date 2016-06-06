@@ -4,6 +4,7 @@ Demo application showing how to use the Http service and Observables in Angular 
 To run this application, you need nodejs and npm installed on your system. Then, run the following commands from your command prompt:
 
 `npm install`
+'node server.js'
 
 `npm start`
 
