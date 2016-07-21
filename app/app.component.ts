@@ -17,7 +17,7 @@ import {HTTP_PROVIDERS} from 'angular2/http';
 
   <h2>Foods</h2>
   <ul>
-    <li *ngFor="#food of foods">{{food.name}}</li>
+<li *ngFor="#post of posts">{{post.name}}</li>
   </ul>
   <h2>Books and Movies</h2>
   <h3>Books</h3>
@@ -34,7 +34,7 @@ import {HTTP_PROVIDERS} from 'angular2/http';
 export class AppComponent {
 
 
-  public foods;
+  public posts;
   public books;
   public movies;
   public call_post;
@@ -56,7 +56,7 @@ export class AppComponent {
   getPost() {
     this._demoService.getPost().subscribe(
       // the first argument is a function which runs on success
-      data => { this.foods = data},
+      data => { this.posts = data},
       // the second argument is a function which runs on error
       err => console.error(err),
       // the third argument is a function which runs on completion
