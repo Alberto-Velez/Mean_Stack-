@@ -59,8 +59,8 @@ export class AppComponent {
       data => { this.posts = data},
       // the second argument is a function which runs on error
       err => console.error(err),
-      // the third argument is a function which runs on completion
-      () => console.log('done loading foods')
+     
+     
     );
   }
 
