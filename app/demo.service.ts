@@ -21,7 +21,7 @@ export class DemoService {
 
 
   // Uses http.get() to load a single JSON file
-  getFoods() {
+  getPost() {
     return this.http.get('/name').map((res:Response) => res.json());
 
     }
