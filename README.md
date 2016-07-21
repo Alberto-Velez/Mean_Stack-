@@ -2,7 +2,10 @@
 
 
 To run this application, you need nodejs and npm installed on your system. 
-download the repository
+
+Download the repository
+
+
 Then, run the following commands from your command prompt:
 
 `npm install`
