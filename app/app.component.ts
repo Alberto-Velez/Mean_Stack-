@@ -42,7 +42,7 @@ export class AppComponent {
   constructor(private _demoService: DemoService) { }
 
   ngOnInit() {
-    this.getFoods();
+    this.getPost();
     this.getBooksAndMovies();
 
   }
@@ -53,8 +53,8 @@ export class AppComponent {
 
    }
 
-  getFoods() {
-    this._demoService.getFoods().subscribe(
+  getPost() {
+    this._demoService.getPost().subscribe(
       // the first argument is a function which runs on success
       data => { this.foods = data},
       // the second argument is a function which runs on error
