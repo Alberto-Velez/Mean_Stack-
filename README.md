@@ -10,3 +10,4 @@ Then, run the following commands from your command prompt:
 
 `npm install`
 
+`node server.js`
